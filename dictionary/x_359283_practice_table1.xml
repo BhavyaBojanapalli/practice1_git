@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="table1" max_length="40" name="x_359283_practice_table1" type="collection">
+        <element choice="1" label="Column1" max_length="40" name="column1" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="a" value="a"/>
+                <element inactive_on_update="false" label="b" value="b"/>
+            </choice>
+        </element>
+        <element label="column2" max_length="255" name="column2" type="string_full_utf8"/>
+    </element>
+</database>
